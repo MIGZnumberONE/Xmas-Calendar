@@ -56,22 +56,20 @@ if ('serviceWorker' in navigator) {
 
 navigator.serviceWorker.register('sw.js').then(function(reg) {
 
-// Registrierung erfolgreich
+// Registry Succsesful
 
-console.log('Registrierung erfolgreich.');
+console.log('Registrierung funktioeniert');
 
 }).catch(function(error) {
 
-// Registrierung fehlgeschlagen
+// Registry Denied
 
-console.log('Registrierung fehlgeschlagen mit ' + error);
+console.log('Registrierung funktioniert nicht ' + error);
 
 });
 
 };
 
     </script>
-
 </body>
-
 </html>
