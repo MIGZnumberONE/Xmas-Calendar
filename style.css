@@ -1,0 +1,232 @@
+body{
+	font-family:'Times New Roman' ;
+	font-size: 100%;
+    background-image: url(santa.jpg);
+    background-size: cover;
+    color: orange;	
+	display: flex;
+	overflow: hidden; 
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#appcontainer {
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    top: 19.00%;
+    left: 2.00%;
+    width: 95.00%;
+    height: 65.91%;
+    z-index: 9;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 40px;
+    box-shadow: 16px 16px 16px #BBBBBB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.83vw;
+}
+
+.door {
+    display: flex; 
+    position: absolute; 
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+	word-break: break-all;
+    width: 18.00%;
+    height: 16.00%;
+    color: blue;
+    background-color: rgb(239, 239, 239);
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+#door1 {
+    top: 5.0%;
+    left: 2.0%;
+}
+
+#door2 {
+    top: 5.0%;
+    left: 21.0%;
+}
+#door3 {
+    top: 5.0%;
+    left: 40.0%;
+}
+#door4 {
+    top: 5.0%;
+    left: 59.0%;
+}
+
+#door5 {
+    top: 5.0%;
+    left: 78.0%;
+}
+
+#door6 {
+    top:22.0%;
+    left: 2.0%;
+}
+
+#door7 {
+    top:22.0%;
+    left: 21.0%;  
+}
+
+#door8 {
+    top:22.0%;
+    left: 40.0%;  
+}
+
+#door9 {
+ top:22.0%;
+ left: 59.0%;   
+}
+
+#door10 {
+top:22.0%;
+left: 78.0%;    
+}
+
+#door11 {
+    top:39.0%;
+    left: 2.0%;    
+}
+
+#door12 {
+    top:39.0%;
+    left: 21.0%;
+}
+
+#door13 {
+    top:39.0%;
+    left:40.0%;
+}
+
+#door14 {
+    top:39.0%;
+    left: 59.0%;
+}
+
+#door15 {
+    top:39.0%;
+    left: 78.0%;
+}
+
+#door16 {
+    top:56.0%;
+    left: 2.0%;
+}
+
+#door17 {
+    top:56.0%;
+    left: 21.0%;
+}
+
+#door18 {
+    top:56.0%;
+    left: 40.0%;
+}
+
+#door19 {
+    top:56.0%;
+    left: 59.0%;
+}
+
+#door20 {
+    top:56.0%;
+    left: 78.0%;  
+}
+
+#door21 {
+    top:73.0%;
+    left: 2.0%;     
+	}
+
+#door22 {
+    top:73.0%;
+    left: 21.0%;
+}
+
+#door23 {
+    top:73.0%;
+    left: 40.0%;
+}
+
+#door24 {
+    top:73.0%;
+    left: 59.0%;
+}
+
+#snowflake1 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 240%;
+	color: white;
+    top:1.0%;
+    left: 10.0%;
+}
+ 
+
+#snowflake2 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 540%;
+	color: white;
+	top: 12.0%;
+	left: 25%;
+}
+
+#snowflake3 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 380%;
+	color: white;
+	left: 70%;
+	top: 8.0%;
+}
+    	
+#snowflake4 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 450%;
+	font-style: bold;
+	color: white;
+	left: 15%;
+	top: 78.0%;
+}
+	
+#snowflake5 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 500%;
+	font-style: bold;
+	color: white;
+	left: 55%;
+	top: 85.0%;
+}
+#footer {
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 300px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}

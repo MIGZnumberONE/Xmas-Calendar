@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index">
+	<title>Its Xmas Time Zorans Adventskalender</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="manifest" href="manifest.webmanifest">
+	
+</head>
+<body>
+<h1>Its Xmas Time <br>Welcome to Zorans Adventskalender</h1>
+<div id="snowflake1">*</div>
+<div id="snowflake2">*</div>
+<div id="appcontainer">
+<div id="door1" class="door" title="Door for the 1. Dez.">1 </div>
+<div id="door2" class="door" title="Door for the 2. Dez.">2 </div>
+<div id="door3" class="door" title="Door for the 3. Dez.">3 </div>
+<div id="door4" class="door" title="Door for the 4. Dez.">4 </div>
+<div id="door5" class="door" title="Door for the 5. Dez.">5 </div>
+<div id="door6" class="door" title="Door for the 6. Dez.">6 </div>
+<div id="door7" class="door" title="Door for the 7. Dez.">7 </div>
+<div id="door8" class="door" title="Door for the 8. Dez.">8 </div>
+<div id="door9" class="door" title="Door for the 9. Dez.">9 </div>
+<div id="door10" class="door" title="Door for the 10. Dez.">10 </div>
+<div id="door11" class="door" title="Door for the 11. Dez.">11 </div>
+<div id="door12" class="door" title="Door for the 12. Dez.">12 </div>
+<div id="door13" class="door" title="Door for the 13. Dez.">13 </div>
+<div id="door14" class="door" title="Door for the 14. Dez.">14 </div>
+<div id="door15" class="door" title="Door for the 15. Dez.">15 </div>
+<div id="door16" class="door" title="Door for the 16. Dez.">16 </div>
+<div id="door17" class="door" title="Door for the 17. Dez.">17 </div>
+<div id="door18" class="door" title="Door for the 18. Dez.">18 </div>
+<div id="door19" class="door" title="Door for the 19. Dez.">19 </div>
+<div id="door20" class="door" title="Door for the 20. Dez.">20 </div>
+<div id="door21" class="door" title="Door for the 21. Dez.">21 </div>
+<div id="door22" class="door" title="Door for the 22. Dez.">22 </div>
+<div id="door23" class="door" title="Door for the 23. Dez.">23 </div>
+<div id="door24" class="door" title="Door for the 24. Dez.">24 </div>
+
+</div>
+
+<div id="snowflake3">*</div>
+<div id="snowflake4">*</div>
+<div id="snowflake5">*</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="main.js"></script>
+ <script>
+   
+if ('serviceWorker' in navigator) {
+
+navigator.serviceWorker.register('sw.js').then(function(reg) {
+
+// Registrierung erfolgreich
+
+console.log('Registrierung erfolgreich.');
+
+}).catch(function(error) {
+
+// Registrierung fehlgeschlagen
+
+console.log('Registrierung fehlgeschlagen mit ' + error);
+
+});
+
+};
+
+    </script>
+
+</body>
+
+</html>
