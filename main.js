@@ -108,4 +108,5 @@ function ake(zeichen){
 		alert("Zoran wünscht euch allen ein frohes und besinnliches Weihnachtsfest!");
 		window.open("https://www.youtube.com/watch?v=755eNcwjpMU&list=PLzLmKWYW3AHd1uGgcDg98om9Bx48AtQEG&index=10");
 	}
+
 }

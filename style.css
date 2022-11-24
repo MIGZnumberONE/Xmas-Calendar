@@ -20,7 +20,7 @@ body{
     top: 19.00%;
     left: 2.00%;
     width: 95.00%;
-    height: 65.91%;
+    height: 70%;
     z-index: 9;
     color: rgb(0, 0, 0);
     overflow: hidden;
@@ -215,4 +215,14 @@ left: 78.0%;
 	color: white;
 	left: 55%;
 	top: 85.0%;
+}
+#footer {
+    position: absolute;
+    font-family: 'Gill Sans';
+    font-size: 150%;
+    font-style: bold;
+    color: rgb(255, 0, 162);
+    left: 80%;
+    top: 85%;
+
 }
