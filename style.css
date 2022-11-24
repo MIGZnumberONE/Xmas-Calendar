@@ -49,6 +49,16 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.door:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.door a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
 
 #door1 {
     top: 5.0%;
@@ -226,3 +236,9 @@ left: 78.0%;
     top: 85%;
 
 }
+.move{ 
+    cursor: move;
+    padding: 20px;
+    border: 1px solid #ff6677;
+    } 
+    <p class="hilfe"> Move me</p>
