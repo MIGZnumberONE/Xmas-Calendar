@@ -17,7 +17,7 @@ $(document).ready(function() {
         $(this).css('backgroundColor','orange');
 	    //remenber which door was open
 	    let arrayoffenedoor = "";
-	    arrayoffenedoor = localStorage.getItem('Opended Doors');	  
+	    arrayoffenedoor = localStorage.getItem('Opendeds Doors');	  
 		   if (arrayoffenedoor == null) {
 			   arrayoffenedoor = zeichen;
 		   } else {if (arrayoffenedoor.includes(vzeichenvergleich) == false){	
@@ -47,10 +47,10 @@ function ake(zeichen){
 	} else
 	if (zeichen == 5){
 		alert("Was, morgen kommt der Nikolaus?");
-        window.open("https://www.noradsanta.org/de/");		
+        window.open("https://www.youtube.com/watch?v=ij4zJL_lk3o");		
 	} else
 	if (zeichen == 6){
-		alert("We Wish You a Merry Christmas");
+		alert("Es ist so weit heute ist Nikolaustag");
 		 window.open("https://www.youtube.com/watch?v=EFB7S8zX6rk");		
 	} else
 	if (zeichen == 7){
@@ -96,13 +96,16 @@ function ake(zeichen){
 		window.open("https://www.youtube.com/watch?v=6VeAkhy_9y0&list=PLzLmKWYW3AHd1uGgcDg98om9Bx48AtQEG&index=6");
 	} else
 	if (zeichen == 21){
+		alert("In drei tagen ist es soweit");
 		window.open("https://www.youtube.com/watch?v=UBEr3z-n2f0&list=PLzLmKWYW3AHd1uGgcDg98om9Bx48AtQEG&index=7");
 	} else
 	if (zeichen == 22){
+		alert("Das Fest der Liebe rückt näher, in zwei tagen ist es so weit. Es duftet so herrlich nach Plätzchen");
 		window.open("https://www.youtube.com/watch?v=azYH2VeHsjE&list=PLzLmKWYW3AHd1uGgcDg98om9Bx48AtQEG&index=8");
 	} else
 	if (zeichen == 23){
-		window.open("https://www.youtube.com/watch?v=lgR3dpfun68&list=PLzLmKWYW3AHd1uGgcDg98om9Bx48AtQEG&index=9");
+		alert("Mal sehen wie weit Santa ist?");
+        window.open("https://www.noradsanta.org/de/");
 	} else
 	if (zeichen == 24){
 		alert("Zoran wünscht euch allen ein frohes und besinnliches Weihnachtsfest!");
